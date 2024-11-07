@@ -1,0 +1,52 @@
+{
+    "m_Version": 11,
+    "Enabled": 1,
+    "FrameRateCheckSafeZoneInMs": 0,
+    "CircleZones": [
+        {
+            "Center": [
+                5832.77001953125,
+                16.028799057006837,
+                13006.900390625
+            ],
+            "Radius": 300.0
+        }
+    ],
+    "PolygonZones": [
+        {
+            "Positions": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        }
+    ],
+    "CylinderZones": [
+        {
+            "Center": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Radius": 0.0,
+            "Height": 0.0
+        }
+    ],
+    "ActorsPerTick": 9,
+    "DisablePlayerCollision": 0,
+    "DisableVehicleDamageInSafeZone": 1,
+    "EnableForceSZCleanup": 1,
+    "ItemLifetimeInSafeZone": 1800000,
+    "EnableForceSZCleanupVehicles": 1,
+    "VehicleLifetimeInSafeZone": 1800000,
+    "ForceSZCleanup_ExcludedItems": [
+        "ExpansionVehicleCover",
+        "maTrashbin_Static",
+        "mmg_trashcontainer_green_static",
+        "mmg_trashcontainer_orange_static",
+        "rag_baseitems_trashcan_static",
+        "Paragon_TrashCan_Static",
+        "Paragon_Dumpster_Static",
+        "Msp_Static_TrashCan"
+    ]
+}

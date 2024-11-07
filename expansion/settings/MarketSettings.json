@@ -1,0 +1,113 @@
+{
+  "m_Version": 15,
+  "MarketSystemEnabled": 1,
+  "NetworkCategories": [],
+  "CurrencyIcon": "DayZExpansion/Core/GUI/icons/misc/coinstack2_64x64.edds",
+  "ATMSystemEnabled": 0,
+  "MaxDepositMoney": 10000000,
+  "DefaultDepositMoney": 10000,
+  "ATMPlayerTransferEnabled": 1,
+  "ATMPartyLockerEnabled": 0,
+  "MaxPartyDepositMoney": 10000000,
+  "UseWholeMapForATMPlayerList": 1,
+  "SellPricePercent": 25,
+  "NetworkBatchSize": 100,
+  "MaxVehicleDistanceToTrader": 120,
+  "MaxLargeVehicleDistanceToTrader": 744,
+  "LargeVehicles": [
+    "expansionlhd"
+  ],
+  "LandSpawnPositions": [
+    {
+      "Position": [
+        5848.89,
+        4.35782,
+        12989
+      ],
+      "Orientation": [
+        158.564,
+        0,
+        0
+      ]
+    }
+  ],
+  "AirSpawnPositions": [
+    {
+      "Position": [
+        5792.7,
+        12.2599,
+        12997.7
+      ],
+      "Orientation": [
+        68.786,
+        0,
+        0
+      ]
+    }
+  ],
+  "WaterSpawnPositions": [
+    {
+      "Position": [
+        5855.97,
+        -0.447747,
+        12909.2
+      ],
+      "Orientation": [
+        329.649,
+        0,
+        0
+      ]
+    }
+  ],
+  "MarketMenuColors": {
+    "BaseColorVignette": "000000C8",
+    "BaseColorHeaders": "13171BFF",
+    "BaseColorLabels": "27272DFF",
+    "BaseColorText": "FBFCFEFF",
+    "BaseColorCheckboxes": "FBFCFEFF",
+    "BaseColorInfoSectionBackground": "2225268C",
+    "BaseColorTooltipsHeaders": "000000F0",
+    "BaseColorTooltipsBackground": "000000DC",
+    "ColorDecreaseQuantityButton": "DD262614",
+    "ColorDecreaseQuantityIcon": "DD262628",
+    "ColorSetQuantityButton": "C7265114",
+    "ColorIncreaseQuantityButton": "A0CC7114",
+    "ColorIncreaseQuantityIcon": "A0CC7128",
+    "ColorSellPanel": "27272DFF",
+    "ColorSellButton": "DD262628",
+    "ColorBuyPanel": "27272DFF",
+    "ColorBuyButton": "A0CC7128",
+    "ColorMarketIcon": "E241428C",
+    "ColorFilterOptionsButton": "C726518C",
+    "ColorFilterOptionsIcon": "C726518C",
+    "ColorSearchFilterButton": "C726518C",
+    "ColorCategoryButton": "C726518C",
+    "ColorCategoryCollapseIcon": "C726518C",
+    "ColorCurrencyDenominationText": "FFB418FF",
+    "ColorItemButton": "C726518C",
+    "ColorItemInfoIcon": "FFB418FF",
+    "ColorItemInfoTitle": "FFB418FF",
+    "ColorItemInfoHasContainerItems": "FFB418FF",
+    "ColorItemInfoHasAttachments": "FFB418FF",
+    "ColorItemInfoHasBullets": "FFB418FF",
+    "ColorItemInfoIsAttachment": "FFB418FF",
+    "ColorItemInfoIsEquipped": "FFB418FF",
+    "ColorItemInfoAttachments": "FFB418FF",
+    "ColorToggleCategoriesText": "C726518C",
+    "ColorCategoryCorners": "FBFCFEFF",
+    "ColorCategoryBackground": "222526FF"
+  },
+  "Currencies": [
+    "Money_AUDollar5",
+    "Money_AUDollar10",
+    "Money_AUDollar20",
+    "Money_AUDollar50",
+    "Money_AUDollar100"
+  ],
+  "VehicleKeys": [],
+  "MaxSZVehicleParkingTime": 10000,
+  "SZVehicleParkingTicketFine": 1,
+  "SZVehicleParkingFineUseKey": 1,
+  "TrainSpawnPositions": [],
+  "DisallowUnpersisted": 0
+}

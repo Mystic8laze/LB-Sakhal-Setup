@@ -1,0 +1,58 @@
+{
+    "m_Version": 5,
+    "EnableMap": 0,
+    "UseMapOnMapItem": 0,
+    "ShowPlayerPosition": 1,
+    "ShowMapStats": 1,
+    "NeedPenItemForCreateMarker": 0,
+    "NeedGPSItemForCreateMarker": 0,
+    "CanCreateMarker": 1,
+    "CanCreate3DMarker": 1,
+    "CanOpenMapWithKeyBinding": 1,
+    "ShowDistanceOnPersonalMarkers": 1,
+    "EnableHUDGPS": 0,
+    "NeedGPSItemForKeyBinding": 0,
+    "NeedMapItemForKeyBinding": 0,
+    "EnableServerMarkers": 0,
+    "ShowNameOnServerMarkers": 0,
+    "ShowDistanceOnServerMarkers": 1,
+    "ServerMarkers": [
+        {
+            "m_UID": "ServerMarker_Trader_Outpost",
+            "m_Visibility": 6,
+            "m_Is3D": 1,
+            "m_Text": "Survivor Outpost",
+            "m_IconName": "Trader",
+            "m_Color": -13710223,
+            "m_Position": [
+                10457.223633,
+				3.674129,
+				7362.649414
+            ],
+            "m_Locked": 1,
+            "m_Persist": 0
+        },
+        {
+            "m_UID": "ServerMarker_Trader_Camp",
+            "m_Visibility": 6,
+            "m_Is3D": 1,
+            "m_Text": "Survivor Camp",
+            "m_IconName": "Trader",
+            "m_Color": -13710223,
+            "m_Position": [
+                5446.434570,
+				16.439753,
+				4956.323242
+            ],
+            "m_Locked": 1,
+            "m_Persist": 0
+        }
+    ],
+    "EnableHUDCompass": 0,
+    "NeedCompassItemForHUDCompass": 0,
+    "NeedGPSItemForHUDCompass": 0,
+    "CompassColor": -1,
+    "CreateDeathMarker": 0,
+    "PlayerLocationNotifier": 1,
+    "CompassBadgesColor": -12783556
+}

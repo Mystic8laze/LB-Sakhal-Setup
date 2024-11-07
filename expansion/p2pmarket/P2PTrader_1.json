@@ -1,0 +1,52 @@
+{
+  "m_Version": 8,
+  "m_TraderID": 1,
+  "m_ClassName": "ExpansionP2PTraderAIGuo",
+  "m_Position": [
+    5871.02,
+    3.4679,
+    12992.6
+  ],
+  "m_Orientation": [
+    211.762,
+    0,
+    0
+  ],
+  "m_LoadoutFile": "TTSKOLoadout",
+  "m_VehicleSpawnPosition": [
+    5848.89,
+    4.35782,
+    12989
+  ],
+  "m_WatercraftSpawnPosition": [
+    5855.97,
+    -0.447747,
+    12909.2
+  ],
+  "m_AircraftSpawnPosition": [
+    5792.7,
+    12.2599,
+    12997.7
+  ],
+  "m_DisplayName": "P2P",
+  "m_DisplayIcon": "Deliver",
+  "m_Faction": "Passive",
+  "m_Waypoints": [],
+  "m_EmoteID": 0,
+  "m_EmoteIsStatic": 0,
+  "m_RequiredFaction": "",
+  "m_UseReputation": 0,
+  "m_MinRequiredReputation": 0,
+  "m_MaxRequiredReputation": 2147483647,
+  "m_RequiredCompletedQuestID": -1,
+  "m_IsGlobalTrader": 1,
+  "m_Currencies": [
+    "Money_AUDollar5",
+    "Money_AUDollar10",
+    "Money_AUDollar20",
+    "Money_AUDollar50",
+    "Money_AUDollar100"
+  ],
+  "m_DisplayCurrencyValue": 0,
+  "m_DisplayCurrencyName": "$"
+}
