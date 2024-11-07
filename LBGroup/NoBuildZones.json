@@ -1,0 +1,23 @@
+{
+    "version": 2,
+    "enabled": 1,
+    "displayOnMap": 1,
+    "notificationTitle": "No Build Zones",
+    "notificationMessage": "You cannot build near {pos}",
+    "ignoreItems": [
+        "LandMineTrap",
+        "BearTrap",
+        "Fireplace"
+    ],
+    "circleColorR": 0,
+    "circleColorG": 255,
+    "circleColorB": 0,
+    "zones": [
+        {
+            "name": "TRADER SAFEZONE",
+            "x": 5832.77001953125,
+            "y": 13006.900390625,
+            "r": 300.0
+        }
+    ]
+}

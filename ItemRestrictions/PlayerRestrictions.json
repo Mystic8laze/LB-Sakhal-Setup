@@ -1,0 +1,39 @@
+{
+    "version": 0,
+    "enabled": 1,
+    "restrictions": [
+        {
+            "displayName": "Sleeping Bags",
+            "kitItemNames": [
+                "LBS_SleepingPacked_Base",
+                "LBS_SleepingPacked_New_Camo",
+                "LBS_SleepingPacked_New_Blue",
+                "LBS_SleepingPacked_Old_Red",
+                "LBS_SleepingPacked_Old_Blue",
+                "LBS_SleepingPacked_Old_Brown",
+                "LBS_SleepingPacked_Old_Green",
+                "LBS_SleepingPacked_Old_LightPurple",
+                "LBS_SleepingPacked_Old_Purple",
+                "LBS_SleepingPacked_Old_Orange"
+            ],
+            "countItemNames": [
+                "LBS_SleepingBag_Base",
+                "LBS_SleepingBag_New_Camo",
+                "LBS_SleepingBag_New_Blue",
+                "LBS_SleepingBag_Old_Red",
+                "LBS_SleepingBag_Old_Blue",
+                "LBS_SleepingBag_Old_Brown",
+                "LBS_SleepingBag_Old_Green",
+                "LBS_SleepingBag_Old_LightPurple",
+                "LBS_SleepingBag_Old_Purple",
+                "LBS_SleepingBag_Old_Orange"
+            ],
+            "limits": [
+                1
+            ],
+            "isAttachment": 0,
+            "showOnMap": 1,
+            "show3D": 1
+        }
+    ]
+}

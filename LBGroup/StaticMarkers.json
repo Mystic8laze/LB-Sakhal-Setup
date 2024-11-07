@@ -1,0 +1,30 @@
+[
+    {
+        "type": 0,
+        "uid": 217548383,
+        "name": "Traders",
+        "icon": "DZ\\gear\\navigation\\data\\ping.paa",
+        "position": [
+            5832.77,
+            16.0288,
+            13006.9
+        ],
+        "currentSubgroup": 0,
+        "colorA": 255,
+        "colorR": 255,
+        "colorG": 215,
+        "colorB": 0,
+        "creatorSteamID": "",
+        "circleRadius": 0.0,
+        "circleColorA": 255,
+        "circleColorR": 255,
+        "circleColorG": 215,
+        "circleColorB": 0,
+        "circleStriked": 1,
+        "showAllPlayerNametags": 1,
+        "toSurface": 1,
+        "display3d": 1,
+        "displayMap": 1,
+        "displayGPS": 1
+    }
+]

@@ -1,0 +1,379 @@
+{
+    "version": 0,
+    "enabled": 1,
+    "restrictions": [
+        {
+            "displayName": "Panels",
+            "kitItemNames": [
+                "BBP_Wall_Kit",
+                "BBP_Door_Kit",
+                "BBP_Floor_Kit",
+                "BBP_Roof_Hatch_Kit",
+                "BBP_Floor_Hatch_Kit",
+                "BBP_Foundation_Kit",
+                "BBP_Triangle_Foundation_Kit",
+                "BBP_Gate_Kit",
+                "BBP_SGate_Kit",
+                "BBP_Half_Wall_Kit",
+                "BBP_Pillar_Kit",
+                "BBP_Ramp_Kit",
+                "BBP_Roof_Kit",
+                "BBP_Hanger_Roof_Kit",
+                "BBP_Slope_Roof_Kit",
+                "BBP_Slope_Wall_Kit",
+                "BBP_Stair_Kit",
+                "BBP_Triangle_Floor_Kit",
+                "BBP_Triangle_Roof_Kit",
+                "BBP_Window_Kit",
+                "BBP_Barbwire_Fence_Kit",
+                "BBP_Floor_Mesh_Kit",
+                "BBP_Mesh_Fence_Kit",
+                "BBP_Mesh_Gate_Kit",
+                "BBP_Metal_Stair_Kit"
+            ],
+            "countItemNames": [
+                "BBP_Metal_Stair",
+                "BBP_Floor_Mesh",
+                "BBP_Mesh_Fence",
+                "BBP_Barbwire_Fence",
+                "BBP_Mesh_Gate",
+                "BBP_Bwall",
+                "BBP_Swall",
+                "BBP_BDoor",
+                "BBP_SDoor",
+                "BBP_Bfloor",
+                "BBP_Sfloor",
+                "BBP_Roof_Hatch",
+                "BBP_Floor_Hatch",
+                "BBP_BFoundation",
+                "BBP_Triangle_Foundation",
+                "BBP_LGate",
+                "BBP_RGate",
+                "BBP_SGate",
+                "BBP_DGate",
+                "BBP_Half_Bwall",
+                "BBP_Half_Swall",
+                "BBP_Bpillar",
+                "BBP_Spillar",
+                "BBP_Bramp",
+                "BBP_Broof",
+                "BBP_Sroof",
+                "BBP_LHanger_Roof",
+                "BBP_RHanger_Roof",
+                "BBP_Slope_Roof",
+                "BBP_Left_Slope_Wall",
+                "BBP_Right_Slope_Wall",
+                "BBP_Bstair",
+                "BBP_Sstair",
+                "BBP_Triangle_Bfloor",
+                "BBP_Triangle_Broof",
+                "BBP_BWindow",
+                "BBP_SWindow"
+            ],
+            "limits": [
+                200
+            ],
+            "isAttachment": 0,
+            "showOnMap": 1,
+            "show3D": 1
+        },
+        {
+            "displayName": "ParagonRDoor",
+            "kitItemNames": [
+                "StorageBox_Rdoor_Green",
+                "StorageBox_Rdoor_Black"
+            ],
+            "countItemNames": [
+                "Paragon_Rdoor_Green",
+                "Paragon_Rdoor_Black"
+            ],
+            "limits": [
+                2
+            ],
+            "isAttachment": 0,
+            "showOnMap": 1,
+            "show3D": 1
+        },
+        {
+            "displayName": "ParagonADoor",
+            "kitItemNames": [
+                "StorageBox_Adoor_Black",
+                "StorageBox_Adoor_Green",
+                "StorageBox_Adoor_Blue",
+                "StorageBox_Adoor_Gold",
+                "StorageBox_Adoor_Rainbow"
+            ],
+            "countItemNames": [
+                "Paragon_Adoor_Black",
+                "Paragon_Adoor_Green",
+                "Paragon_Adoor_Blue",
+                "Paragon_Adoor_Gold",
+                "Paragon_Adoor_Rainbow"
+            ],
+            "limits": [
+                2
+            ],
+            "isAttachment": 0,
+            "showOnMap": 1,
+            "show3D": 1
+        },
+        {
+            "displayName": "ParagonGate",
+            "kitItemNames": [
+                "StorageBox_Compound_Gate"
+            ],
+            "countItemNames": [
+                "Paragon_Compound_Gate"
+            ],
+            "limits": [
+                2
+            ],
+            "isAttachment": 0,
+            "showOnMap": 1,
+            "show3D": 1
+        },        
+        {
+            "displayName": "CamoNet",
+            "kitItemNames": [
+                "CamoNet"
+            ],
+            "countItemNames": [
+                "CamoNet"
+            ],
+            "limits": [
+                8
+            ],
+            "isAttachment": 0,
+            "showOnMap": 1,
+            "show3D": 1
+        },
+        {
+            "displayName": "Cabin",
+            "kitItemNames": [
+                "rag_hunting_cabin_admin_kit"
+            ],
+            "countItemNames": [
+                "rag_hunting_cabin"
+            ],
+            "limits": [
+                1
+            ],
+            "isAttachment": 0,
+            "showOnMap": 1,
+            "show3D": 1
+        },
+        {
+            "displayName": "MABase",
+            "kitItemNames": [
+                "maMB_Kit",
+                "maMB_Small_Kit"
+            ],
+            "countItemNames": [
+                "maMB_Base",
+                "maMB_Base_Small"
+            ],
+            "limits": [
+                1
+            ],
+            "isAttachment": 0,
+            "showOnMap": 1,
+            "show3D": 1
+        },
+        {
+            "displayName": "Greenhouse",
+            "kitItemNames": [
+                "StorageBox_P_GreenHouse",
+                "StorageBox_LargeGreenHouse",
+                "rag_baseitems_greenhouse_kit",
+                "rag_baseitems_greenhouse_big_kit",
+                "bl_greenhouse_Kit"
+            ],
+            "countItemNames": [
+                "Paragon_GreenHouse",
+                "Paragon_LargeGreenHouse",
+                "rag_baseitems_greenhouse",
+                "rag_baseitems_greenhouse_big",
+                "bl_greenhouse"
+            ],
+            "limits": [
+                2
+            ],
+            "isAttachment": 0,
+            "showOnMap": 1,
+            "show3D": 1
+        },
+        {
+            "displayName": "PlanterBox",
+            "kitItemNames": [
+                "StorageBox_PlanterBox"
+            ],
+            "countItemNames": [
+                "Paragon_PlanterBox"
+            ],
+            "limits": [
+                4
+            ],
+            "isAttachment": 0,
+            "showOnMap": 1,
+            "show3D": 1
+        },
+        {
+            "displayName": "Tents",
+            "kitItemNames": [
+                "TentBase",
+                "MediumTent",
+                "MediumTent_Green",
+                "MediumTent_Orange",
+                "LargeTent",
+                "CarTent",
+                "PartyTent",
+                "PartyTent_Blue",
+                "PartyTent_Brown",
+                "PartyTent_Lunapark",
+                "maMiliTent_Woodland",
+                "maMiliTent_Black",
+                "maCarTent_BrownCamo",
+                "maCarTent_GreenCamo",
+                "maCarTent_Graffiti",
+                "maCarTent_Medical",
+                "maCarTent_Rust",
+                "maCarTent_Black",
+                "maCarTent_Green",
+                "maCarTent_Woodland",
+                "StorageBox_BigTent_Black",
+                "StorageBox_BigTent_Green",
+                "StorageBox_BigTent_White"
+            ],
+            "countItemNames": [
+                "TentBase",
+                "MediumTent",
+                "MediumTent_Green",
+                "MediumTent_Orange",
+                "LargeTent",
+                "CarTent",
+                "PartyTent",
+                "PartyTent_Blue",
+                "PartyTent_Brown",
+                "PartyTent_Lunapark",
+                "maMiliTent_Woodland",
+                "maMiliTent_Black",
+                "maCarTent_BrownCamo",
+                "maCarTent_GreenCamo",
+                "maCarTent_Graffiti",
+                "maCarTent_Medical",
+                "maCarTent_Rust",
+                "maCarTent_Black",
+                "maCarTent_Green",
+                "maCarTent_Woodland",
+                "Paragon_BigTent_Black",
+                "Paragon_BigTent_Green",
+                "Paragon_BigTent_White"
+            ],
+            "limits": [
+                4
+            ],
+            "isAttachment": 0,
+            "showOnMap": 1,
+            "show3D": 1
+        },
+        {
+            "displayName": "BarbedWire",
+            "kitItemNames": [
+                "BarbedWire"
+            ],
+            "countItemNames": [
+                "BarbedWire"
+            ],
+            "limits": [
+                2
+            ],
+            "isAttachment": 1,
+            "showOnMap": 1,
+            "show3D": 1
+        },
+        {
+
+            "displayName": "BearTrap",
+            "kitItemNames": [
+                "BearTrap"
+            ],
+            "countItemNames": [
+                "BearTrap"
+            ],
+            "limits": [
+                4
+            ],
+            "isAttachment": 1,
+            "showOnMap": 1,
+            "show3D": 1
+        },
+        {
+            "displayName": "Code Locks",
+            "kitItemNames": [
+                "CodeLock"
+            ],
+            "countItemNames": [
+                "CodeLock"
+            ],
+            "limits": [
+                10
+            ],
+            "isAttachment": 1,
+            "showOnMap": 1,
+            "show3D": 1
+        },
+        {
+            "displayName": "Trash Bin",
+            "kitItemNames": [
+                "StorageBox_Dumpster",
+                "StorageBox_GraffitiCan",
+                "StorageBox_TrashCan",
+                "maTrashbin",
+                "rag_baseitems_trashcan_kit",
+                "bl_trashcan_Kit"
+            ],
+            "countItemNames": [
+                "Paragon_Dumpster",
+                "Paragon_GraffitiCan",
+                "Paragon_TrashCan",
+                "maTrashbin",
+                "rag_baseitems_trashcan",
+                "bl_trashcan"
+            ],
+            "limits": [
+                2
+            ],
+            "isAttachment": 1,
+            "showOnMap": 1,
+            "show3D": 1
+        },
+        {
+            "displayName": "Garage",
+            "kitItemNames": [
+                "Garage_Sign_PlayerKit",
+                "Garage_Sign_PlayerKit_2"
+            ],
+            "countItemNames": [
+                "Garage_Sign_Player",
+                "Garage_Sign_Player_2"
+            ],
+            "limits": [
+                2
+            ],
+            "isAttachment": 1,
+            "showOnMap": 1,
+            "show3D": 1
+        }
+    ],
+    "plotpoles": [
+        {
+            "radius": 50.0,
+            "radiusShape": 1,
+            "cylinderUp": 30.0,
+            "cylinderDown": 30.0,
+            "plotpoleItemnames": [
+                "TerritoryFlag"
+            ]
+        }
+    ]
+}

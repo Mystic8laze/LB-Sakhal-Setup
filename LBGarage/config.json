@@ -1,0 +1,424 @@
+{
+    "version": 23,
+    "garageKeys": 0,
+    "vehicleToSpawnPointDistanceToStore": 8.0,
+    "defaultSlotSize": 1,
+    "slotSizeOverwrites": [
+        {
+            "itemname": "Truck_01_Base",
+            "slotSize": 2
+        }
+    ],
+    "maxPrivateGaragesPerPlayer": 1,
+    "maxPrivateGaragesPerGroup": 1,
+    "checkLineOfSight": 0,
+    "maxSpawnAreaDistanceFromPlayerGarage": 20.0,
+    "allowPlayerGaragePackWithVehiclesStored": 0,
+    "privateGaragePinLength": 0,
+    "healthDamageOnWrongPinEntered": 5,
+    "startHealthDamageAfterXWrongTries": 5,
+    "enablePrivateGarageHacking": 1,
+    "maxVehiclesRevealedAfterHacking": 2,
+    "minVehiclesRevealedAfterHacking": 1,
+    "hackingDurationSeconds": 120,
+    "hackingStartMessage": "$player$ is hacking a garage at $x$ $y$ $z$ Time left: $time$",
+    "hackingSuccessMessage": "$player$ hacked the garage at $x$ $y$ $z$ successfully",
+    "hackingAbortMessage": "$player$ stopped hacking the garage at $x$ $y$ $z$",
+    "removeVehicleLockAfterBeingHacked": 1,
+    "markHackerPositionOnMap": 1,
+    "abortHackingWhenNoVehiclesLeft": 1,
+    "chanceToRevealNextVehicle": 0.5,
+    "itemDamageAfterHacking": 30,
+    "disableDumpButton": 0,
+    "showSpawnConesAtPublicTraders": 0,
+    "parkAreaIgnoreItems": [
+        "Land_RoadCone"
+    ],
+    "privateGarages": [
+        {
+            "itemname": "Garage_Sign_Player",
+            "notLinkedTraderGroupname": "Personal Vehicles",
+            "linkedToTraderGarages": 0,
+            "linkedPersonalTraderGroupname": "Ground Vehicles",
+            "linkedGroupTraderGroupname": "Ground Vehicles"
+        },
+        {
+            "itemname": "Garage_Sign_Player_2",
+            "notLinkedTraderGroupname": "Personal Vehicles",
+            "linkedToTraderGarages": 0,
+            "linkedPersonalTraderGroupname": "Ground Vehicles",
+            "linkedGroupTraderGroupname": "Ground Vehicles"
+        }
+    ],
+    "garageGroups": [
+        {
+            "name": "Ground Vehicles",
+            "costWithdraw": 0,
+            "costDeposit": 0,
+            "createNewKeyWhenWithdrawing": 0,
+            "spawnVehicleLocked": 0,
+            "requireKeyToDeposit": 0,
+            "requireVehicleLockedToStore": 0,
+            "requireKeyToWithdraw": 0,
+            "deleteKeyWhenDepositing": 0,
+            "forceKeyAssignedToParkIn": 0,
+            "saveInventory": 0,
+            "canBuyVehiclesAtAdminPlaced": 0,
+            "canBuyVehiclesAtPlayerPlaced": 0,
+            "canSellVehiclesAtPlayerPlaced": 0,
+            "canSellVehiclesAtAdminPlaced": 0,
+            "addKeyToBoughtVehicle": 0,
+            "canRepaintVehicles": 0,
+            "canRepairVehicle": 1,
+            "baseVehicleRepairCost": 10000.0,
+            "singleAttachmentRepairCost": 1000.0,
+            "canRepairVehicleAttachments": 1,
+            "canRepairRuinedAttachments": 0,
+            "canRefuelVehicle": 1,
+            "fuelCostPerLiter": 10.0,
+            "waterCoolantCostPerLiter": 5.0,
+            "vehicleWhitelist": [
+                "Sedan_02",
+                "CivilianSedan",
+                "Hatchback_02",
+                "OffroadHatchback",
+                "Truck_01_Base"
+            ],
+            "inventoryItemBlacklist": [
+                "Money_AUDollar5",
+                "Money_AUDollar10",
+                "Money_AUDollar20",
+                "Money_AUDollar50",
+                "Money_AUDollar100",
+                "HDSN_BreachingCharge",
+                "HDSN_BreachingChargeHeavy",
+                "HDSN_C4Stick",
+                "HDSN_C4StickWithDuctTape"
+            ],
+            "levels": [
+                {
+                    "level": 0,
+                    "cost": 0,
+                    "slots": 2
+                },
+                {
+                    "level": 1,
+                    "cost": 10000,
+                    "slots": 4
+                },
+                {
+                    "level": 2,
+                    "cost": 50000,
+                    "slots": 7
+                }
+            ]
+        },
+        {
+            "name": "Air Vehicles",
+            "costWithdraw": 0,
+            "costDeposit": 0,
+            "createNewKeyWhenWithdrawing": 0,
+            "spawnVehicleLocked": 0,
+            "requireKeyToDeposit": 0,
+            "requireVehicleLockedToStore": 0,
+            "requireKeyToWithdraw": 0,
+            "deleteKeyWhenDepositing": 0,
+            "forceKeyAssignedToParkIn": 0,
+            "saveInventory": 0,
+            "canBuyVehiclesAtAdminPlaced": 0,
+            "canBuyVehiclesAtPlayerPlaced": 0,
+            "canSellVehiclesAtPlayerPlaced": 0,
+            "canSellVehiclesAtAdminPlaced": 0,
+            "addKeyToBoughtVehicle": 0,
+            "canRepaintVehicles": 0,
+            "canRepairVehicle": 1,
+            "baseVehicleRepairCost": 10000.0,
+            "singleAttachmentRepairCost": 1000.0,
+            "canRepairVehicleAttachments": 1,
+            "canRepairRuinedAttachments": 0,
+            "canRefuelVehicle": 1,
+            "fuelCostPerLiter": 10.0,
+            "waterCoolantCostPerLiter": 5.0,
+            "vehicleWhitelist": [
+                "Helicoper_Classname",
+                "OtherAirVehicles_Classname",
+                "RFFSHeli_AS350",
+                "RFFSHeli_Bell429",
+                "RFFSHeli_Bell429_Medic",
+                "RFFSHeli_Bell429_Police",
+                "RFFSHeli_Bell429_Uganda",
+                "RFFSHeli_Bell429_ZS",
+                "RFFSHeli_Blackhawk ",
+                "RFFSHeli_Blackhawk_Cargo",
+                "RFFSHeli_Blackhawk_blackblackhawk",
+                "RFFSHeli_Blackhawk_Budhawk",
+                "RFFSHeli_Blackhawk_Woodland",
+                "RFFSHeli_LittleBird",
+                "RFFSHeli_LittleBird_Camo",
+                "RFFSHeli_LittleBird_Desert",
+                "RFFSHeli_Mi2",
+                "RFFSHeli_Mi2_Hornet",
+                "RFFSHeli_Mi2_Military",
+                "RFFSHeli_R22",
+                "RFFSHeli_R22_Black",
+                "RFFSHeli_R22_Red",
+                "RFFSHeli_S76",
+                "RFFSHeli_S76_WoodlandCamo",
+                "RFFSHeli_UH1H",
+                "RFFSHeli_UH1H_Combat",
+                "RFFSHeli_EC135",
+                "RFFSHeli_EC135_BlackCamo",
+                "RFFSHeli_Bo105m",
+                "RFFSHeli_Bo105m_blackcamo",
+                "RFFSHeli_Ka26",
+                "RFFSHeli_Apache",
+                "RFFSHeli_Apache_Winter",
+                "RFFSHeli_Apache_Desert",
+                "RFFSHeli_Blackhawk",
+                "RFFSHeli_Blackhawk_Cargo",
+                "RFFSHeli_Blackhawk_Woodland",
+                "RFFSHeli_Blackhawk_blackblackhawk",
+                "RFFSHeli_Blackhawk_Budhawk",
+                "RFFSHeli_CH53e",
+                "RFFSHeli_CH47",
+                "RFFSHeli_Bell429_GC_GFuel",
+                "RFFSHeli_Bell429_GC_Green_Camo",
+                "RFFSHeli_Bell429_GC_Moonster_Energy",
+                "RFFSHeli_Bell429_GC_NYPD",
+                "RFFSHeli_Bell429_GC_Porn_hub",
+                "RFFSHeli_Bell429_GC_RedFalcon",
+                "RFFSHeli_Blackhawk_GC_Asimov",
+                "RFFSHeli_Blackhawk_GC_BlueDigital",
+                "RFFSHeli_Blackhawk_GC_Ice_Camo",
+                "RFFSHeli_Blackhawk_GC_Jungle",
+                "RFFSHeli_Blackhawk_GC_PVC_Board",
+                "RFFSHeli_Bo105m_GC_Redbull",
+                "RRFFSHeli_CH47_GC_DigCamo_mod",
+                "RRFFSHeli_CH47_GC_HyperBeast_mod",
+                "RRFFSHeli_CH47_GC_Lighting_mod",
+                "RRFFSHeli_CH47_GC_MineCraft_mod",
+                "RRFFSHeli_CH47_GC_Rusty_mod",
+                "RRFFSHeli_CH47_GC_Space_Blue_mod",
+                "RRFFSHeli_CH47_GC_Space_Multy_mod",
+                "RFFSHeli_EC135_GC_Jurassic_Park",
+                "RFFSHeli_EC135_GC_Sheriff",
+                "RFFSHeli_Ka26_GC_DayZ",
+                "RFFSHeli_Ka26_GC_Dragon",
+                "RFFSHeli_Ka26_GC_Gtaxi",
+                "RFFSHeli_Ka26_GC_WOW",
+                "RFFSHeli_R22_GC_Orange",
+                "RFFSHeli_EC135_Fractured_Soulz",
+                "FS_Bo105m_SKULLS",
+                "FS_LittleBird_JUNGLE",
+                "FS_R22_DIRTY_CHICKEN",
+                "FS_R22_SASSY",
+                "FS_R22_CLOWN",
+                "FS_UH1H_MASH"
+            ],
+            "inventoryItemBlacklist": [
+                "Money_AUDollar5",
+                "Money_AUDollar10",
+                "Money_AUDollar20",
+                "Money_AUDollar50",
+                "Money_AUDollar100",
+                "HDSN_BreachingCharge",
+                "HDSN_BreachingChargeHeavy",
+                "HDSN_C4Stick",
+                "HDSN_C4StickWithDuctTape"
+            ],
+            "levels": [
+                {
+                    "level": 0,
+                    "cost": 0,
+                    "slots": 2
+                },
+                {
+                    "level": 1,
+                    "cost": 50000,
+                    "slots": 4
+                },
+                {
+                    "level": 2,
+                    "cost": 120000,
+                    "slots": 7
+                }
+            ]
+        },
+        {
+            "name": "Personal Vehicles",
+            "costWithdraw": 0,
+            "costDeposit": 0,
+            "createNewKeyWhenWithdrawing": 0,
+            "spawnVehicleLocked": 1,
+            "requireKeyToDeposit": 0,
+            "requireVehicleLockedToStore": 0,
+            "requireKeyToWithdraw": 0,
+            "deleteKeyWhenDepositing": 0,
+            "forceKeyAssignedToParkIn": 0,
+            "saveInventory": 0,
+            "canBuyVehiclesAtAdminPlaced": 0,
+            "canBuyVehiclesAtPlayerPlaced": 0,
+            "canSellVehiclesAtPlayerPlaced": 0,
+            "canSellVehiclesAtAdminPlaced": 0,
+            "addKeyToBoughtVehicle": 0,
+            "canRepaintVehicles": 0,
+            "canRepairVehicle": 1,
+            "baseVehicleRepairCost": 10000.0,
+            "singleAttachmentRepairCost": 1000.0,
+            "canRepairVehicleAttachments": 1,
+            "canRepairRuinedAttachments": 0,
+            "canRefuelVehicle": 1,
+            "fuelCostPerLiter": 10.0,
+            "waterCoolantCostPerLiter": 5.0,
+            "vehicleWhitelist": [
+                "Transport"
+            ],
+            "inventoryItemBlacklist": [
+                "Money_AUDollar5",
+                "Money_AUDollar10",
+                "Money_AUDollar20",
+                "Money_AUDollar50",
+                "Money_AUDollar100",
+                "HDSN_BreachingCharge",
+                "HDSN_BreachingChargeHeavy",
+                "HDSN_C4Stick",
+                "HDSN_C4StickWithDuctTape"
+            ],
+            "levels": [
+                {
+                    "level": 0,
+                    "cost": 0,
+                    "slots": 2
+                },
+                {
+                    "level": 1,
+                    "cost": 50000,
+                    "slots": 4
+                },
+                {
+                    "level": 2,
+                    "cost": 120000,
+                    "slots": 7
+                }
+            ]
+        }
+    ],
+    "traders": [
+        {
+            "traderItemClassname": "Garage_Sign",
+            "objectPosition": [
+                3739.43994140625,
+                48.551822662353519,
+                6006.830078125
+            ],
+            "objectOrientation": [
+                50.0,
+                0.0,
+                0.0
+            ],
+            "vehicleSpawnPosition": [
+                3738.340087890625,
+                48.799190521240237,
+                6000.02001953125
+            ],
+            "vehicleSpawnOrientation": [
+                -40.70000076293945,
+                -3.0,
+                0.0
+            ],
+            "cameraDistance": 8.0,
+            "cameraRotation": 45.0,
+            "cameraAngle": 30.0,
+            "blackboxPreview": 0,
+            "personalTraderGroupname": "Ground Vehicles",
+            "groupTraderGroupname": "Ground Vehicles"
+        },
+        {
+            "traderItemClassname": "Garage_Sign_2",
+            "objectPosition": [
+                5855.3779296875,
+                1.5257439613342286,
+                12917.607421875
+            ],
+            "objectOrientation": [
+                69.33931732177735,
+                0.0,
+                0.0
+            ],
+            "vehicleSpawnPosition": [
+                5852.80224609375,
+                0.9939389228820801,
+                12917.4306640625
+            ],
+            "vehicleSpawnOrientation": [
+                -18.71637725830078,
+                8.162699699401856,
+                0.9165053367614746
+            ],
+            "cameraDistance": 8.0,
+            "cameraRotation": 45.0,
+            "cameraAngle": 30.0,
+            "blackboxPreview": 0,
+            "personalTraderGroupname": "Personal Vehicles",
+            "groupTraderGroupname": "Ground Vehicles"
+        },
+        {
+            "traderItemClassname": "Garage_Sign_2",
+            "objectPosition": [
+                5862.642578125,
+                3.213653564453125,
+                12980.8427734375
+            ],
+            "objectOrientation": [
+                160.12379455566407,
+                0.0,
+                0.0
+            ],
+            "vehicleSpawnPosition": [
+                5863.578125,
+                3.2199058532714845,
+                12977.35546875
+            ],
+            "vehicleSpawnOrientation": [
+                75.19438171386719,
+                0.000009676631634647493,
+                -0.0000025925601221388208
+            ],
+            "cameraDistance": 8.0,
+            "cameraRotation": 45.0,
+            "cameraAngle": 30.0,
+            "blackboxPreview": 0,
+            "personalTraderGroupname": "Personal Vehicles",
+            "groupTraderGroupname": "Ground Vehicles"
+        },
+        {
+            "traderItemClassname": "Garage_Sign_2",
+            "objectPosition": [
+                5809.859375,
+                12.246560096740723,
+                13007.97265625
+            ],
+            "objectOrientation": [
+                -111.20840454101563,
+                0.0,
+                0.0
+            ],
+            "vehicleSpawnPosition": [
+                5806.59716796875,
+                12.246560096740723,
+                13003.4892578125
+            ],
+            "vehicleSpawnOrientation": [
+                161.88052368164063,
+                0.000008675659046275542,
+                -0.000005009141659684246
+            ],
+            "cameraDistance": 8.0,
+            "cameraRotation": 45.0,
+            "cameraAngle": 30.0,
+            "blackboxPreview": 0,
+            "personalTraderGroupname": "Personal Vehicles",
+            "groupTraderGroupname": "Ground Vehicles"
+        }
+    ]
+}

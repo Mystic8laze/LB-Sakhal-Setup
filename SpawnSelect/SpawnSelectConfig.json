@@ -1,0 +1,383 @@
+{
+    "version": 19,
+    "spawn_clear_radius": 20.0,
+    "spawnPos": [
+        5873.71533203125,
+        4.992663860321045,
+        12964.8271484375
+    ],
+    "random_spawn_cost_money": 0,
+    "random_ignore_timeouts": 1,
+    "force_exact_spawn_pos": 0,
+    "overwrite_default_spawnPos": 1,
+    "openSpawnMenuOnce": 1,
+    "forceOpenSpawnMenu": 1,
+    "hide_when_no_spawns_found": 1,
+    "show_cost_in_spawnmenu": 1,
+    "show_remaining_bag_uses_in_spawnmenu": 1,
+    "overwrite_stats_on_spawn": 0,
+    "water_on_spawn": 600,
+    "food_on_spawn": 600,
+    "health_on_spawn": 100,
+    "blood_on_spawn": 5000,
+    "death_spawn_block_radius": 1500,
+    "death_spawn_block_timeout": 1800,
+    "respawnOpenedMenuSpawnpoints": {
+        "disableRandomSpawn": 0,
+        "sleepingBags": 1,
+        "allSpawnPoints": 1,
+        "allHousePoints": 1,
+        "spawnPointsList": []
+    },
+    "firstJoinOpenedMenuSpawnpoints": {
+        "disableRandomSpawn": 0,
+        "sleepingBags": 1,
+        "allSpawnPoints": 1,
+        "allHousePoints": 1,
+        "spawnPointsList": []
+    },
+    "signs": [
+        {
+            "disableRandomSpawn": 0,
+            "sleepingBags": 1,
+            "allSpawnPoints": 1,
+            "allHousePoints": 1,
+            "spawnPointsList": [],
+            "itemname": "LBmaster_SpawnSign",
+            "requiredSpawnTicket": "",
+            "actionText": "#open"
+        },
+        {
+            "disableRandomSpawn": 0,
+            "sleepingBags": 0,
+            "allSpawnPoints": 0,
+            "allHousePoints": 1,
+            "spawnPointsList": [
+                "Green Mountain",
+                "Klen"
+            ],
+            "itemname": "LBmaster_SpawnSign_Safezone",
+            "requiredSpawnTicket": "LBmaster_SpawnTicket_1",
+            "actionText": "Teleport to Safezone"
+        },
+        {
+            "disableRandomSpawn": 0,
+            "sleepingBags": 1,
+            "allSpawnPoints": 0,
+            "allHousePoints": 1,
+            "spawnPointsList": [
+                "Chernogorsk",
+                "Elektrozavodsk",
+                "Spawn",
+                "Balota",
+                "Berezino",
+                "Solnechny"
+            ],
+            "itemname": "LBmaster_SpawnSign_Spawn",
+            "requiredSpawnTicket": "",
+            "actionText": "Spawn"
+        }
+    ],
+    "positions": [
+        {
+            "pos": [
+                14514.7333984375,
+                8.431426048278809,
+                9787.8115234375
+            ],
+            "name": "Vajkovo",
+            "spawnCost": 0,
+            "timeout": 120,
+            "spawnRadius": 20,
+            "enabled": 1,
+            "spawnAtExactPosition": 0,
+            "forcePlayerIntoGroup": "",
+            "spawnPlayerInAir": 0,
+            "heightOverGround": 1,
+            "clearInventoryOnSpawn": 0,
+            "loadouts": [],
+            "spawnPositions": [
+                [
+                    14463.44921875,
+                    17.911222457885743,
+                    9868.96875
+                ],
+                [
+                    14571.4931640625,
+                    7.385839939117432,
+                    9722.0888671875
+                ],
+                [
+                    14569.501953125,
+                    8.93035888671875,
+                    9836.60546875
+                ],
+                [
+                    14511.248046875,
+                    8.511600494384766,
+                    9786.81640625
+                ],
+                [
+                    14427.6015625,
+                    12.05373764038086,
+                    9781.3388671875
+                ],
+                [
+                    14492.3271484375,
+                    10.552042961120606,
+                    9715.1181640625
+                ]
+            ]
+        },
+        {
+            "pos": [
+                9928.36328125,
+                58.66857147216797,
+                9825.0986328125
+            ],
+            "name": "Dolinovka",
+            "spawnCost": 0,
+            "timeout": 120,
+            "spawnRadius": 20,
+            "enabled": 1,
+            "spawnAtExactPosition": 0,
+            "forcePlayerIntoGroup": "",
+            "spawnPlayerInAir": 0,
+            "heightOverGround": 1,
+            "clearInventoryOnSpawn": 0,
+            "loadouts": [],
+            "spawnPositions": [
+                [
+                    9877.9765625,
+                    53.91738510131836,
+                    9862.0859375
+                ],
+                [
+                    9846.2158203125,
+                    56.5292854309082,
+                    9800.576171875
+                ],
+                [
+                    9941.8984375,
+                    59.24758529663086,
+                    9823.4921875
+                ],
+                [
+                    9985.318359375,
+                    59.29426574707031,
+                    9889.826171875
+                ],
+                [
+                    10055.26953125,
+                    64.33000183105469,
+                    9811.029296875
+                ],
+                [
+                    9975.267578125,
+                    59.269256591796878,
+                    9747.509765625
+                ]
+            ]
+        },
+        {
+            "pos": [
+                9773.7587890625,
+                5.748485088348389,
+                6571.35595703125
+            ],
+            "name": "Taranay",
+            "spawnCost": 0,
+            "timeout": 120,
+            "spawnRadius": 20,
+            "enabled": 1,
+            "spawnAtExactPosition": 0,
+            "forcePlayerIntoGroup": "",
+            "spawnPlayerInAir": 0,
+            "heightOverGround": 1,
+            "clearInventoryOnSpawn": 0,
+            "loadouts": [],
+            "spawnPositions": [
+                [
+                    9770.5029296875,
+                    5.92412805557251,
+                    6576.7841796875
+                ],
+                [
+                    9669.0107421875,
+                    4.659475326538086,
+                    6562.6728515625
+                ],
+                [
+                    9750.9638671875,
+                    7.554115295410156,
+                    6629.4296875
+                ],
+                [
+                    9729.25390625,
+                    3.8139894008636476,
+                    6499.71484375
+                ],
+                [
+                    9816.0927734375,
+                    6.307619571685791,
+                    6506.77099609375
+                ],
+                [
+                    9868.1953125,
+                    13.8895845413208,
+                    6592.52392578125
+                ]
+            ]
+        },
+        {
+            "pos": [
+                5810.52197265625,
+                13.387109756469727,
+                10434.96484375
+            ],
+            "name": "Petro - Sakhalsky",
+            "spawnCost": 0,
+            "timeout": 120,
+            "spawnRadius": 20,
+            "enabled": 1,
+            "spawnAtExactPosition": 0,
+            "forcePlayerIntoGroup": "",
+            "spawnPlayerInAir": 0,
+            "heightOverGround": 1,
+            "clearInventoryOnSpawn": 0,
+            "loadouts": [],
+            "spawnPositions": [
+                [
+                    5897.4140625,
+                    15.486564636230469,
+                    10481.333984375
+                ],
+                [
+                    5919.234375,
+                    26.956296920776368,
+                    10411.5859375
+                ],
+                [
+                    5771.1669921875,
+                    8.368412971496582,
+                    10414.7041015625
+                ],
+                [
+                    5820.65283203125,
+                    15.396187782287598,
+                    10480.9443359375
+                ],
+                [
+                    5879.1005859375,
+                    17.363801956176759,
+                    10373.7900390625
+                ],
+                [
+                    5857.36865234375,
+                    14.756255149841309,
+                    10427.0322265625
+                ]
+            ]
+        },
+        {
+            "pos": [
+                10297.74609375,
+                13.905902862548829,
+                13339.076171875
+            ],
+            "name": "Orlovo",
+            "spawnCost": 0,
+            "timeout": 120,
+            "spawnRadius": 20,
+            "enabled": 1,
+            "spawnAtExactPosition": 0,
+            "forcePlayerIntoGroup": "",
+            "spawnPlayerInAir": 0,
+            "heightOverGround": 1,
+            "clearInventoryOnSpawn": 0,
+            "loadouts": [],
+            "spawnPositions": [
+                [
+                    10273.5693359375,
+                    13.263091087341309,
+                    13329.7919921875
+                ],
+                [
+                    10326.2333984375,
+                    5.514804840087891,
+                    13396.220703125
+                ],
+                [
+                    10219.708984375,
+                    8.814115524291993,
+                    13396.220703125
+                ],
+                [
+                    10190.9833984375,
+                    27.85858726501465,
+                    13326.7998046875
+                ],
+                [
+                    10258.009765625,
+                    24.30518913269043,
+                    13266.953125
+                ],
+                [
+                    10361.9267578125,
+                    14.408066749572754,
+                    13305.6611328125
+                ]
+            ]
+        },
+        {
+            "pos": [
+                2307.54443359375,
+                14.152006149291993,
+                3393.769287109375
+            ],
+            "name": "Shantar",
+            "spawnCost": 0,
+            "timeout": 1200,
+            "spawnRadius": 20,
+            "enabled": 1,
+            "spawnAtExactPosition": 0,
+            "forcePlayerIntoGroup": "",
+            "spawnPlayerInAir": 0,
+            "heightOverGround": 1,
+            "clearInventoryOnSpawn": 0,
+            "loadouts": [],
+            "spawnPositions": [
+                [
+                    2308.72802734375,
+                    14.04349422454834,
+                    3395.54443359375
+                ],
+                [
+                    2316.421142578125,
+                    11.899999618530274,
+                    3509.754638671875
+                ],
+                [
+                    2206.35302734375,
+                    12.745630264282227,
+                    3470.69921875
+                ],
+                [
+                    2212.8623046875,
+                    10.774014472961426,
+                    3346.42822265625
+                ],
+                [
+                    2392.1669921875,
+                    21.47930335998535,
+                    3305.00439453125
+                ],
+                [
+                    2463.1787109375,
+                    13.347262382507325,
+                    3421.58203125
+                ]
+            ]
+        }
+    ]
+}

@@ -1,0 +1,129 @@
+[
+    {
+        "itemnames": [
+            "AD_NFATACR",
+            "BC_50Cal_Suppressor",
+            "BC_DSR_Fall",
+            "BC_M60",
+            "BC_M60_Magazine",
+            "BC_M82_Desert",
+            "BC_M82_Snow",
+            "BC_M99",
+            "BC_SNIPEX",
+            "BC_Scout_BigIron",
+            "BC_Scout_NeedleWork",
+            "BC_SnowOwl",
+            "Dragon_Chest",
+            "Dragon_MKII_Mozaic_Red",
+            "Dragon_Mozaic_Suppressor",
+            "FS_Battery_9V",
+            "Frac_FAL_100Rnd_Mag",
+            "Frac_FAL_Buttstock",
+            "Frac_Rifle_Suppressor",
+            "M4A1",
+            "Mag_MKII_25Rnd",
+            "MountainBag_Orange"
+        ],
+        "repaints": [
+            {
+                "name": "Camo",
+                "overwrittenDisplayName": "$original$ (Camo)",
+                "excludedItems": [],
+                "hiddenSelectionTextures": [
+                    "dz/characters/backpacks/data/alicebackpack_camo_co.paa",
+                    "dz/characters/backpacks/data/alicebackpack_camo_co.paa",
+                    "dz/characters/backpacks/data/alicebackpack_camo_co.paa"
+                ],
+                "hiddenSelectionMaterials": [],
+                "permissionGroups": [],
+                "attachments": [
+                    {
+                        "itemnames": [
+                            "M4_PlasticHndgrd",
+                            "M4_RISHndgrd"
+                        ],
+                        "hiddenSelectionTextures": [
+                            "dz/characters/backpacks/data/alicebackpack_camo_co.paa",
+                            "dz/characters/backpacks/data/alicebackpack_camo_co.paa",
+                            "dz/characters/backpacks/data/alicebackpack_camo_co.paa"
+                        ],
+                        "hiddenSelectionMaterials": []
+                    },
+                    {
+                        "itemnames": [
+                            "M4_MPBttstck",
+                            "M4_OEBttstck"
+                        ],
+                        "hiddenSelectionTextures": [
+                            "dz/characters/backpacks/data/alicebackpack_camo_co.paa",
+                            "dz/characters/backpacks/data/alicebackpack_camo_co.paa",
+                            "dz/characters/backpacks/data/alicebackpack_camo_co.paa"
+                        ],
+                        "hiddenSelectionMaterials": []
+                    }
+                ]
+            },
+            {
+                "name": "New Entry",
+                "overwrittenDisplayName": "$original$ New",
+                "excludedItems": [],
+                "hiddenSelectionTextures": [],
+                "hiddenSelectionMaterials": [],
+                "permissionGroups": [],
+                "attachments": [
+                    {
+                        "itemnames": [
+                            "Frac_GhillieHood17"
+                        ],
+                        "hiddenSelectionTextures": [],
+                        "hiddenSelectionMaterials": []
+                    },
+                    {
+                        "itemnames": [],
+                        "hiddenSelectionTextures": [],
+                        "hiddenSelectionMaterials": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "itemnames": [
+            "AliceBag_Camo"
+        ],
+        "repaints": [
+            {
+                "name": "Red",
+                "overwrittenDisplayName": "$original$ (Red)",
+                "excludedItems": [],
+                "hiddenSelectionTextures": [
+                    "LBmaster_RepaintRepairItems/items/ExampleTextures/red.paa",
+                    "LBmaster_RepaintRepairItems/items/ExampleTextures/red.paa",
+                    "LBmaster_RepaintRepairItems/items/ExampleTextures/red.paa"
+                ],
+                "hiddenSelectionMaterials": [],
+                "permissionGroups": [],
+                "attachments": [
+                    {
+                        "itemnames": [
+                            "AliceBag_Camo"
+                        ],
+                        "hiddenSelectionTextures": [],
+                        "hiddenSelectionMaterials": []
+                    }
+                ]
+            },
+            {
+                "name": "camo",
+                "overwrittenDisplayName": "$original$ camo",
+                "excludedItems": [],
+                "hiddenSelectionTextures": [],
+                "hiddenSelectionMaterials": [
+                    "FracSz_RifleBags"
+                ],
+                "permissionGroups": [],
+                "attachments": []
+            }
+        ]
+    }
+]

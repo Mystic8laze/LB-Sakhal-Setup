@@ -1,0 +1,33 @@
+{
+    "version": 3,
+    "thousandsSeparator": "",
+    "currencyPrefix": "$",
+    "currencySuffix": "",
+    "currencyValues": [
+        {
+            "itemclassname": "Money_AUDollar5",
+            "value": 5,
+            "depositableOnly": 0
+        },
+        {
+            "itemclassname": "Money_AUDollar10",
+            "value": 10,
+            "depositableOnly": 0
+        },
+        {
+            "itemclassname": "Money_AUDollar20",
+            "value": 20,
+            "depositableOnly": 0
+        },
+        {
+            "itemclassname": "Money_AUDollar50",
+            "value": 50,
+            "depositableOnly": 0
+        },
+        {
+            "itemclassname": "Money_AUDollar100",
+            "value": 100,
+            "depositableOnly": 0
+        }
+    ]
+}

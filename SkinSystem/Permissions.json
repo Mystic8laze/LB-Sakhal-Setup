@@ -1,0 +1,24 @@
+[
+    {
+        "name": "admin",
+        "members": [
+            {
+                "steamid": "76561198379983685",
+                "comment": "8laze",
+                "expirydate": ""
+            },
+			{
+                "steamid": "76561198097755518",
+                "comment": "Dragon",
+                "expirydate": ""
+            }
+        ],
+        "groups": [
+            {
+                "groupTag": "SLZ",
+                "comment": "Admin Group",
+                "expirydate": ""
+            }
+        ]
+    }
+]

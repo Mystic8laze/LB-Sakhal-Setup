@@ -1,0 +1,21 @@
+{
+    "version": 0,
+    "enabled": 0,
+    "restrictions": [
+        {
+            "displayName": "Plotpoles",
+            "kitItemNames": [
+                "TerritoryFlagKit"
+            ],
+            "countItemNames": [
+                "TerritoryFlag"
+            ],
+            "limits": [
+                1
+            ],
+            "isAttachment": 1,
+            "showOnMap": 1,
+            "show3D": 1
+        }
+    ]
+}

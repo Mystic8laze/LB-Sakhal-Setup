@@ -1,0 +1,118 @@
+{
+    "version": 7,
+    "displayGroupTagsInfrontOfName": 0,
+    "forceDisplayGroupTagsInChat": 0,
+    "enableMuteVote": 0,
+    "muteVoteMinPlayers": 20,
+    "muteVoteMuteTimeMins": 10,
+    "muteVotePercentile": 0.6000000238418579,
+    "channels": [
+        {
+            "channelName": "Direct",
+            "channelColor": {
+                "a": 255,
+                "r": 255,
+                "g": 255,
+                "b": 255
+            },
+            "canReceiveMessagesFromPlayers": 1,
+            "writeChannelPermission": "",
+            "readChannelPermission": "",
+            "globalChannel": 0,
+            "groupChannel": 0,
+            "directChannel": 1,
+            "defaultChannel": 0,
+            "slowModeSecondsBetweenMessages": 0,
+            "muted": 0
+        },
+        {
+            "channelName": "Global",
+            "channelColor": {
+                "a": 255,
+                "r": 255,
+                "g": 127,
+                "b": 80
+            },
+            "canReceiveMessagesFromPlayers": 1,
+            "writeChannelPermission": "",
+            "readChannelPermission": "",
+            "globalChannel": 1,
+            "groupChannel": 0,
+            "directChannel": 0,
+            "defaultChannel": 1,
+            "slowModeSecondsBetweenMessages": 0,
+            "muted": 0
+        },
+        {
+            "channelName": "Group",
+            "channelColor": {
+                "a": 255,
+                "r": 25,
+                "g": 118,
+                "b": 210
+            },
+            "canReceiveMessagesFromPlayers": 1,
+            "writeChannelPermission": "",
+            "readChannelPermission": "",
+            "globalChannel": 0,
+            "groupChannel": 1,
+            "directChannel": 0,
+            "defaultChannel": 0,
+            "slowModeSecondsBetweenMessages": 0,
+            "muted": 0
+        },
+        {
+            "channelName": "Admin",
+            "channelColor": {
+                "a": 255,
+                "r": 255,
+                "g": 252,
+                "b": 15
+            },
+            "canReceiveMessagesFromPlayers": 1,
+            "writeChannelPermission": "channel.admin.use",
+            "readChannelPermission": "channel.admin.use",
+            "globalChannel": 0,
+            "groupChannel": 1,
+            "directChannel": 0,
+            "defaultChannel": 0,
+            "slowModeSecondsBetweenMessages": 0,
+            "muted": 0
+        },
+        {
+            "channelName": "Admin",
+            "channelColor": {
+                "a": 255,
+                "r": 255,
+                "g": 252,
+                "b": 15
+            },
+            "canReceiveMessagesFromPlayers": 1,
+            "writeChannelPermission": "channel.admin.use",
+            "readChannelPermission": "channel.admin.use",
+            "globalChannel": 0,
+            "groupChannel": 1,
+            "directChannel": 0,
+            "defaultChannel": 0,
+            "slowModeSecondsBetweenMessages": 0,
+            "muted": 0
+        }
+    ],
+    "colorBattleyeMessage": {
+        "a": 255,
+        "r": 255,
+        "g": 0,
+        "b": 0
+    },
+    "prefixGroups": [],
+    "badWords": [
+        "nigger",
+        "nazi",
+        "nigger",
+        "nazi"
+    ],
+    "enabledBadWordsCensor": 0,
+    "blockBadWordContainingMessages": 0,
+    "badWordsBlockedMessage": "Your Message contains Bad Words !",
+    "badWordsMuteTime": 10
+}
